@@ -1,5 +1,8 @@
 # detect-imports
 
+> [!NOTE]
+> This is a slimmed down version of [unjs/mlly](https://github.com/unjs/mlly/), only detecting static and type imports and without other utilities (enabling this package to be bundled for the browser). All credit goes to the amazing UnJS team!
+
 ## Installation
 
 ```sh
