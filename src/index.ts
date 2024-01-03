@@ -20,8 +20,8 @@ function matchAll(
 
 function clearImports(imports: string) {
 	return (imports || '')
-		.replace(/(\/\/[^\n]*\n|\/\*.*\*\/)/g, '')
-		.replace(/\s+/g, ' ');
+		.replaceAll(/(\/\/[^\n]*\n|\/\*.*\*\/)/g, '')
+		.replaceAll(/\s+/g, ' ');
 }
 
 function getImportNames(cleanedImports: string) {
